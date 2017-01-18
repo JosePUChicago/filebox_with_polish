@@ -2,8 +2,31 @@
 
 body {
   font-family: "Open Sans";
+  background-color: #FBFBFB ;
+}
+.navbar {
+  background-color: white
 }
 
+.navbar a{
+  color: royalblue !important
+}
+
+p{
+  font-size: 20px;
+  line-height: 175%;
+  font-weight:100;
+}
+
+h1{
+  font-weight: 100;
+  line-height: 125%
+}
+
+h2{
+  font-weight: 100;
+  line-height: 125%
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
@@ -40,10 +63,12 @@ body {
 
 .padding-inside-bottom-lg {
   padding-bottom: 150px;
+  background-color: white
 }
 
 .padding-inside-bottom-xl {
   padding-bottom: 200px;
+  background-color: #FBFBFB
 }
 
 .margin-above-top-xs {
@@ -56,6 +81,7 @@ body {
 
 .margin-above-top-md {
   margin-top: 50px;
+
 }
 
 .margin-above-top-lg {
@@ -80,4 +106,15 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+h4{
+color: darkgray;
+font-weight: 700;
+font-size: 16px;
+}
+
+li{
+  color: gray;
+  font-size: 15px;
+  line-height: 200%
 }
